@@ -783,6 +783,39 @@
         <a href="#invest">Fundraising</a>
         <a href="#contact">Contact</a>
       </div>
+      <!-- Video -->
+<section class="card section" id="video" aria-label="Demo video">
+  <h3>Demo video</h3>
+
+  <div class="mini" style="padding:16px;">
+    <div style="display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap;">
+      <div>
+        <div style="font-weight:850;">Clear Path walkthrough</div>
+        <div style="color:var(--muted); font-size:13px; margin-top:4px;">
+          Short product demo (MP4). If it doesn’t play, make sure <b>web.mp4</b> is in the same folder as this HTML file.
+        </div>
+      </div>
+      <a class="btn" href="web.mp4" download>Download MP4</a>
+    </div>
+
+    <div style="margin-top:12px; border-radius:18px; overflow:hidden; border:1px solid rgba(255,255,255,.14); background:rgba(255,255,255,.05);">
+      <video
+        controls
+        preload="metadata"
+        playsinline
+        style="width:100%; height:auto; display:block; background:#000;"
+      >
+        <source src="web.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <div style="margin-top:10px; color:var(--muted2); font-size:12px; line-height:1.5;">
+      Tip: ถ้าเปิดผ่านไฟล์ในเครื่องแล้ววิดีโอไม่ขึ้น ลองรันด้วย local server (เช่น VSCode Live Server) จะเสถียรกว่า
+    </div>
+  </div>
+</section>
+
     </footer>
   </div>
 
